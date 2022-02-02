@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./App.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import ClickedNumbersContextProvider from "./contexts/ClickedNumbersContextProvider";
 
 ReactDOM.render(
   <React.StrictMode>
