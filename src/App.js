@@ -4,8 +4,8 @@ import Info from "./components/Info";
 
 function App() {
   const calling = true;
-  //const clickedNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  const clickedNumers = "123456789";
+  const clickedNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  //const clickedNumers = "123456789";
 
   return (
     <div className="container">
@@ -49,7 +49,7 @@ function App() {
           </ol>
         </div>
         <div className="actions">
-          {<Display numbers={clickedNumers} />}
+          {<Display numbers={clickedNumbers} />}
           <a href="www.google.es" className="call">
             Call
           </a>
