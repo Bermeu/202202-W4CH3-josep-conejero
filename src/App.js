@@ -44,10 +44,10 @@ function App() {
         </div>
         <div class="actions">
           <span class="number">667359961</span>
-          <a href="#" class="call">
+          <a href="www.google.es" class="call">
             Call
           </a>
-          <a href="#" class="hang active">
+          <a href="www.google.es" class="hang active">
             Hang
           </a>
         </div>
