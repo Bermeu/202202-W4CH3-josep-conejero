@@ -4,7 +4,7 @@ const Display = (numbers) => {
   return (
     <>
       {/* <span className="number">{clickedNumbers}</span> */}
-      <span className="number">{numbers.join("")}</span>
+      <span className="number">{numbersList}</span>
     </>
   );
 };
